@@ -1,0 +1,81 @@
+.novoProduto{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    background: #E5E5E5;
+}
+
+.caixa__input-novoProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+        
+
+}
+
+.caixa__input-novoProduto h2{
+    color: #464646;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 38px;
+    
+}
+
+
+
+.input__novoProduto{
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 100%;
+    border: none;
+}
+
+.botao__novoProduto{
+    cursor: pointer;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    width: 104%;
+    padding: 2%;
+}   
+
+@media screen and (min-width: 0px) {
+    .novoProduto{
+        justify-content: left;
+        padding-left: 5%;
+    }
+   
+    .caixa__input-novoProduto h2{
+        font-size: 1.2rem;
+    }
+
+    .caixa__input-novoProduto{
+        width: 100%;
+    }
+
+    .input__novoProduto{
+        width: 90%;
+    }
+
+    .botao__novoProduto{
+        width: 94%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .novoProduto{
+        justify-content: center;
+    }
+
+    .caixa__input-novoProduto h2{
+        font-size: 2rem;
+    }
+
+    .caixa__input-novoProduto{ 
+        width: 50%;
+    }
+
+
+}

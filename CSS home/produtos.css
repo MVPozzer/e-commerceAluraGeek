@@ -1,0 +1,226 @@
+.produtos{
+    margin-bottom: 5%;
+}
+
+.produtos__starWars-cabecalho , .produtos__console-cabecalho , .produtos__diversos-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.produtos__starWars-cabecalho a, .produtos__console-cabecalho a , .produtos__diversos-cabecalho a{
+    text-decoration: none;
+    color: #2A7AE4;
+    margin-right: 10%;
+    
+}
+
+.produtos__starWars-cabecalho a:hover, .produtos__console-cabecalho a:hover , .produtos__diversos-cabecalho a:hover{
+    text-decoration: underline;
+
+}
+
+.produtos__descricao{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 14% 14% 14% 14% 14% 14%;
+    gap: 4%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produtos__starWars-descricao a , .produtos__console-descricao a , .produtos__diversos-descricao a {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+.produtos__preco {
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (min-width:0px) {
+    .produtos__starWars-cabecalho{
+        margin-left: 8%; 
+    }
+
+    .produtos__console-cabecalho{
+        margin-left: 8%; 
+    }
+    
+    .produtos__diversos-cabecalho{
+        margin-left: 8%; 
+    }
+    
+
+    .produtos__descricao{
+        display: grid;
+        grid-template-columns: 40% 40% ;
+        grid-template-rows: 50% 50%;
+        gap: 4%;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+
+    .produtos__starWars-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__starWars-descricao:nth-child(6){
+        display: none;
+    }
+
+    .produtos__console-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__console-descricao:nth-child(6){
+        display: none;
+    }
+
+    .produtos__diversos-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__diversos-descricao:nth-child(6){
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    
+    .produtos__starWars-cabecalho{
+        margin-left: 4%; 
+    }
+
+    .produtos__console-cabecalho{
+        margin-left: 4%; 
+    }
+    
+    .produtos__diversos-cabecalho{
+        margin-left: 4%; 
+    }
+
+    .produtos__starWars-cabecalho a, .produtos__console-cabecalho a , .produtos__diversos-cabecalho a{
+        margin-right: 4%;
+    }
+
+
+    .produtos__descricao{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 14% 14% 14% 14%;
+        gap: 4%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .produtos__descricao img {
+        width: 100%;
+    }
+    
+    .produtos__starWars-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__starWars-descricao:nth-child(6){
+        display: none;
+    }
+
+    .produtos__console-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__console-descricao:nth-child(6){
+        display: none;
+    }
+
+    .produtos__diversos-descricao:nth-child(5){
+        display: none;
+    }
+
+    .produtos__diversos-descricao:nth-child(6){
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .produtos__starWars-cabecalho , .produtos__console-cabecalho , .produtos__diversos-cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    .produtos__starWars-cabecalho a, .produtos__console-cabecalho a , .produtos__diversos-cabecalho a{
+        text-decoration: none;
+        color: #2A7AE4;
+        margin-right: 10%;
+        
+    }
+
+
+    .produtos__descricao{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10%;
+        grid-template-rows: 14% 14% 14% 14% 14% 14%;
+        gap: 4%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .produtos__starWars-descricao:nth-child(5){
+        display: grid;
+    }
+
+    .produtos__starWars-descricao:nth-child(6){
+        display: grid;
+    }
+
+    .produtos__starWars-descricao{
+        display: grid;
+    }
+
+    .produtos__console-descricao:nth-child(5){
+        display: grid;
+    }
+
+    .produtos__console-descricao:nth-child(6){
+        display: grid;
+    }
+
+    .produtos__console-descricao{
+        display: grid;
+    }
+
+    .produtos__diversos-descricao:nth-child(5){
+        display: grid;
+    }
+
+    .produtos__diversos-descricao:nth-child(6){
+        display: grid;
+    }
+
+    .produtos__diversos-descricao{
+        display: grid;
+    }
+    
+
+
+}
